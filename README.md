@@ -32,29 +32,11 @@ Oltre ai desideri fondanti degli Archetipi, che permettono di creare una conness
 
 L’essenza è il termine chiave che permette di sintonizzarsi con questi motori propulsori in maniera rapida e immediata (per questo è una sola parola).
 
-
-<table>
-  <tr>
-   <td>Visione 
-   </td>
-   <td>Una Mirandola dove c’è integrazione, si parla di argomenti quali, omofobia, sessismo, razzismo, abilismo, fascismo e discriminazioni varie, senza omertà.
-<p>
-Parlare in modo positivo e critico, con più apertura.
-   </td>
-  </tr>
-  <tr>
-   <td>Missione
-   </td>
-   <td>Creare una conoscenza collettiva sulla sessualità e affettività, parlare di salute mentale, e con questi ambienti di comfort, premere affinché la gente si informi sempre di più e sia in grado di esprimersi in modo aperto e rispettoso.
-   </td>
-  </tr>
-  <tr>
-   <td>Essenza
-   </td>
-   <td>Intersezionale
-   </td>
-  </tr>
-</table>
+|Valori|Descrizione|
+|:-|:-|
+|Visione|Una Mirandola dove c’è integrazione, si parla di argomenti quali, omofobia, sessismo, razzismo, abilismo, fascismo e discriminazioni varie, senza omertà.<br>Parlare in modo positivo e critico, con più apertura.|
+|Missione|Creare una conoscenza collettiva sulla sessualità e affettività, parlare di salute mentale, e con questi ambienti di comfort, premere affinché la gente si informi sempre di più e sia in grado di esprimersi in modo aperto e rispettoso.|
+|Essenza|Intersezionale|
 
 
 
@@ -68,22 +50,10 @@ Dall’unione dei valori dell’Identity Spectrum (che pone la personalità su d
 
 Dagli aggettivi descrittivi e dalla WordStorm generata su di essi (ovvero una serie di parole che fanno riferimento a immagini concrete e molto visive) emerge lo stile visivo adottato.
 
-
-<table>
-  <tr>
-   <td>Personalità espressa
-   </td>
-   <td>Provocatori*, coinvolgente, comprensiv*, ispiratore, stimolante, comunicativ*
-   </td>
-  </tr>
-  <tr>
-   <td>Stile visivo adottato
-   </td>
-   <td>Colorato, creativo, informale e casual, sex positive, esplicito, non binario, spigliat*
-   </td>
-  </tr>
-</table>
-
+|Personalità|Descrizione|
+|:-|:-|
+|Personalità espressa|Provocatori*, coinvolgente, comprensiv*, ispiratore, stimolante, comunicativ*|
+|Stile visivo adottato|Colorato, creativo, informale e casual, sex positive, esplicito, non binario, spigliat*|
 
 # Linee guida grafiche
 
@@ -96,32 +66,11 @@ Per l'identità visiva e per lo stile grafico, proponiamo di utilizzare questa l
 
 Nei documenti delle fasi precedenti, sono emerse le seguenti caratteristiche in relazione all'identità del progetto:
 
-
-<table>
-  <tr>
-   <td>Personalità
-<p>
-espressa
-   </td>
-   <td>Provocatori*, coinvolgente, comprensiv*, ispiratore, stimolante, comunicativ*
-   </td>
-  </tr>
-  <tr>
-   <td>Stile visivo
-<p>
-adottato
-   </td>
-   <td>Colorato, creativo, informale e casual, sex positive, esplicito, non binario, spigliat*
-   </td>
-  </tr>
-  <tr>
-   <td>Archetipi
-   </td>
-   <td>Explorer (primario), Caregiver (secondario), Creator (terziario)
-   </td>
-  </tr>
-</table>
-
+|Concept|Descrizione|
+|:-|:-|
+|Personalità espressa| Provocatori*, coinvolgente, comprensiv*, ispiratore, stimolante, comunicativ* |
+|Stile visivo adottato| Colorato, creativo, informale e casual, sex positive, esplicito, non binario, spigliat*|
+|Archetipi|Explorer (primario), Caregiver (secondario), Creator (terziario)|
 
 L’immagine che evoca in noi il momento conviviale, di condivisione è stata la tazza di the/caffè bevuta insieme a una fetta di torta, insieme alle persone più strette o nuovi amici, che abbiamo poi semplificato con le forme geometriche elementari del triangolo e del cerchio.
 
@@ -209,8 +158,6 @@ Il 95% del graphic design si compone di tipografia e fonts. Ogni font ha una sua
 
 I font che meglio si adeguano a quanto emerso dai documenti di identità e personalità sono:
 
-
-
 *   i **sans serif (senza le grazie)** in quanto semplici, diretti, facili da leggere e neutrali (in linea con l’Archetipo Common Person dell’identità)
 *   i **rounded (arrotondati)**, in quanto amichevoli, accoglienti e gioviali (tutte caratteristiche raccontate nel documento di personalità)
 
@@ -218,25 +165,12 @@ Una famiglia di font di Google Fonts che unisce queste due tipologie è Poppins 
 
 Poppins, inoltre, presenta 9 pesi con rispettiva versione corsiva (dal sottilissimo al grassetto fino al nero, garantendo versatilità grafica) e il supporto per il _Devanagari_ (l’alfabeto dell’india antica e di buona parte di quella moderna).
 
-
-<table>
-  <tr>
-   <td>Caratteri di Poppins
-   </td>
-   <td>ABCČĆDĐEFGHIJKLMNOPQRSŠTUVWXYZŽabcčćdđefghijklmnopqrsštuvwxyzžआईऊऋॠऌॡऐऔअंअँकखगघङचछजझञटठडढणतथदधनपफबभयरवळशषसह1234567890०१२३४५६७८९‘?’“!”(%)[#]{@}/&<-+÷×=>®©$€£¥¢:;,.*₹
-   </td>
-  </tr>
-  <tr>
-   <td>Pesi
-   </td>
-   <td>Sottile 100, Molto Chiaro 200, Chiaro 300, Normale 400, medio 500, Semigrassetto 600, <strong>Grassetto 700</strong>, Grassetto Extra 800, Nero 900
-   </td>
-  </tr>
-</table>
-
+| Poppins | Descrizione |
+|:-|:-|
+| Caratteri | ABCČĆDĐEFGHIJKLMNOPQRSŠTUVWXYZŽabcčćdđefghijklmnopqrsštuvwxyzžआईऊऋॠऌॡऐऔअंअँकखगघङचछजझञटठडढणतथदधनपफबभयरवळशषसह1234567890०१२३४५६७८९‘?’“!”(%)[#]{@}/&<-+÷×=>®©$€£¥¢:;,.*₹ |
+| Pesi | Sottile 100, Molto Chiaro 200, Chiaro 300, Normale 400, medio 500, Semigrassetto 600, <strong>Grassetto 700</strong>, Grassetto Extra 800, Nero 900 |
 
 
 # Applicazioni del concept
-
 
 ### Logo + colori + font
