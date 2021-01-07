@@ -15,54 +15,15 @@ Ogni Archetipo ha una sua descrizione,​ un ​desiderio base​ che lo spinge 
 
 L’identità sviluppata raccoglie tre nature strutturali: la prima (<span style="text-decoration:underline;">Explorer</span>) è incentrata sulla ricerca di esperienze e crescita autonoma, la seconda (<span style="text-decoration:underline;">Caregiver</span>) è caratterizzata da empatia, ascolto e grande fiducia, mentre la terza (<span style="text-decoration:underline;">Creator</span>) è non conformista, desidera libertà e espressione senza censure.
 
-
-<table>
-  <tr>
-   <td>Explorer
-<p>
-(strutturale
-<p>
-primaria)
-   </td>
-   <td>Ricerca l’autenticità. Promette nuove esperienze e sfida persone a provarle. Con le esperienze aumenta la conoscenza di sé e la
-<p>
-comprensione del mondo.
-<p>
-Desiderio: trovare se stess* attraverso l’esplorazione del mondo
-<p>
-Risorse: autonomia, ambizione, capacità di seguire l’istinto
-   </td>
-  </tr>
-  <tr>
-   <td>Caregiver
-<p>
-(strutturale
-<p>
-secondaria)
-   </td>
-   <td>Si preoccupa per gli altri. Sono rispettat* e godono di grande fiducia, sono icone della sicurezza e della continuità.
-<p>
-Desiderio: essere in connessione con gli altri
-<p>
-Risorse: realismo, empatia, solidità
-   </td>
-  </tr>
-  <tr>
-   <td>Creator 
-<p>
-(strutturale
-<p>
-terziaria)
-   </td>
-   <td>Sono personalità a cui piacciono le innovazioni intelligenti e creazioni visionarie. Si sforzano di dimostrare il loro pensiero, innovazione e individualità non convenzionali.
-<p>
+|Identità|Descrizione|
+|:-|:-|
+|Explorer<br>(strutturale primaria)|Ricerca l’autenticità. Promette nuove esperienze e sfida persone a provarle. Con le esperienze aumenta la conoscenza di sé e la comprensione del mondo.<br>Desiderio: trovare se stess* attraverso l’esplorazione del mondo. <br> Risorse: autonomia, ambizione, capacità di seguire l’istinto|
+| Caregiver<br>(strutturale secondaria) | Si preoccupa per gli altri. Sono rispettat* e godono di grande fiducia, sono icone della sicurezza e della continuità. <br>Desiderio: essere in connessione con gli altri.<br> Risorse: realismo, empatia, solidità |
+| Creator<br>(strutturale terziaria) | Sono personalità a cui piacciono le innovazioni intelligenti e creazioni visionarie. Si sforzano di dimostrare il loro pensiero, innovazione e individualità non convenzionali.
+<br>
 Desiderio: trasformare le idee in realtà
-<p>
-Risorse: ambizione, autenticità, fantasia 
-   </td>
-  </tr>
-</table>
-
+<br>
+Risorse: ambizione, autenticità, fantasia |
 
 
 ### I valori dell’identità
