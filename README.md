@@ -1,8 +1,4 @@
-### parte uno
-
-
 # Identità Progetto _Mirai_
-
 
 ### Introduzione agli archetipi
 
@@ -128,15 +124,9 @@ Dagli aggettivi descrittivi e dalla WordStorm generata su di essi (ovvero una se
 </table>
 
 
-
-### parte due
-
-
 # Linee guida grafiche
 
-
 # Il logo
-
 
 ### Espressione dell'identità: concept
 
