@@ -15,11 +15,11 @@ Ogni Archetipo ha una sua descrizione,​ un ​desiderio base​ che lo spinge 
 
 L’identità sviluppata raccoglie tre nature strutturali: la prima (<span style="text-decoration:underline;">Explorer</span>) è incentrata sulla ricerca di esperienze e crescita autonoma, la seconda (<span style="text-decoration:underline;">Caregiver</span>) è caratterizzata da empatia, ascolto e grande fiducia, mentre la terza (<span style="text-decoration:underline;">Creator</span>) è non conformista, desidera libertà e espressione senza censure.
 
-|Identità|Descrizione|
-|:-|:-|
-|Explorer<br>(strutturale primaria)|Ricerca l’autenticità. Promette nuove esperienze e sfida persone a provarle. Con le esperienze aumenta la conoscenza di sé e la comprensione del mondo.<br>Desiderio: trovare se stess* attraverso l’esplorazione del mondo. <br> Risorse: autonomia, ambizione, capacità di seguire l’istinto|
-| Caregiver<br>(strutturale secondaria) | Si preoccupa per gli altri. Sono rispettat* e godono di grande fiducia, sono icone della sicurezza e della continuità. <br>Desiderio: essere in connessione con gli altri.<br> Risorse: realismo, empatia, solidità |
-| Creator<br>(strutturale terziaria) | Sono personalità a cui piacciono le innovazioni intelligenti e creazioni visionarie. Si sforzano di dimostrare il loro pensiero, innovazione e individualità non convenzionali.
+| Identità                              | Descrizione                                                                                                                                                                                                                                                                                    |
+| :------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Explorer<br>(strutturale primaria)    | Ricerca l’autenticità. Promette nuove esperienze e sfida persone a provarle. Con le esperienze aumenta la conoscenza di sé e la comprensione del mondo.<br>Desiderio: trovare se stess* attraverso l’esplorazione del mondo. <br> Risorse: autonomia, ambizione, capacità di seguire l’istinto |
+| Caregiver<br>(strutturale secondaria) | Si preoccupa per gli altri. Sono rispettat* e godono di grande fiducia, sono icone della sicurezza e della continuità. <br>Desiderio: essere in connessione con gli altri.<br> Risorse: realismo, empatia, solidità                                                                            |
+| Creator<br>(strutturale terziaria)    | Sono personalità a cui piacciono le innovazioni intelligenti e creazioni visionarie. Si sforzano di dimostrare il loro pensiero, innovazione e individualità non convenzionali.                                                                                                                |
 <br>
 Desiderio: trasformare le idee in realtà
 <br>
@@ -32,11 +32,11 @@ Oltre ai desideri fondanti degli Archetipi, che permettono di creare una conness
 
 L’essenza è il termine chiave che permette di sintonizzarsi con questi motori propulsori in maniera rapida e immediata (per questo è una sola parola).
 
-|Valori|Descrizione|
-|:-|:-|
-|Visione|Una Mirandola dove c’è integrazione, si parla di argomenti quali, omofobia, sessismo, razzismo, abilismo, fascismo e discriminazioni varie, senza omertà.<br>Parlare in modo positivo e critico, con più apertura.|
-|Missione|Creare una conoscenza collettiva sulla sessualità e affettività, parlare di salute mentale, e con questi ambienti di comfort, premere affinché la gente si informi sempre di più e sia in grado di esprimersi in modo aperto e rispettoso.|
-|Essenza|Intersezionale|
+| Valori   | Descrizione                                                                                                                                                                                                                                |
+| :------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Visione  | Una Mirandola dove c’è integrazione, si parla di argomenti quali, omofobia, sessismo, razzismo, abilismo, fascismo e discriminazioni varie, senza omertà.<br>Parlare in modo positivo e critico, con più apertura.                         |
+| Missione | Creare una conoscenza collettiva sulla sessualità e affettività, parlare di salute mentale, e con questi ambienti di comfort, premere affinché la gente si informi sempre di più e sia in grado di esprimersi in modo aperto e rispettoso. |
+| Essenza  | Intersezionale                                                                                                                                                                                                                             |
 
 
 
@@ -50,10 +50,10 @@ Dall’unione dei valori dell’Identity Spectrum (che pone la personalità su d
 
 Dagli aggettivi descrittivi e dalla WordStorm generata su di essi (ovvero una serie di parole che fanno riferimento a immagini concrete e molto visive) emerge lo stile visivo adottato.
 
-|Personalità|Descrizione|
-|:-|:-|
-|Personalità espressa|Provocatori*, coinvolgente, comprensiv*, ispiratore, stimolante, comunicativ*|
-|Stile visivo adottato|Colorato, creativo, informale e casual, sex positive, esplicito, non binario, spigliat*|
+| Personalità           | Descrizione                                                                             |
+| :-------------------- | :-------------------------------------------------------------------------------------- |
+| Personalità espressa  | Provocatori*, coinvolgente, comprensiv*, ispiratore, stimolante, comunicativ*           |
+| Stile visivo adottato | Colorato, creativo, informale e casual, sex positive, esplicito, non binario, spigliat* |
 
 # Linee guida grafiche
 
@@ -66,11 +66,11 @@ Per l'identità visiva e per lo stile grafico, proponiamo di utilizzare questa l
 
 Nei documenti delle fasi precedenti, sono emerse le seguenti caratteristiche in relazione all'identità del progetto:
 
-|Concept|Descrizione|
-|:-|:-|
-|Personalità espressa| Provocatori*, coinvolgente, comprensiv*, ispiratore, stimolante, comunicativ* |
-|Stile visivo adottato| Colorato, creativo, informale e casual, sex positive, esplicito, non binario, spigliat*|
-|Archetipi|Explorer (primario), Caregiver (secondario), Creator (terziario)|
+| Concept               | Descrizione                                                                             |
+| :-------------------- | :-------------------------------------------------------------------------------------- |
+| Personalità espressa  | Provocatori*, coinvolgente, comprensiv*, ispiratore, stimolante, comunicativ*           |
+| Stile visivo adottato | Colorato, creativo, informale e casual, sex positive, esplicito, non binario, spigliat* |
+| Archetipi             | Explorer (primario), Caregiver (secondario), Creator (terziario)                        |
 
 L’immagine che evoca in noi il momento conviviale, di condivisione è stata la tazza di the/caffè bevuta insieme a una fetta di torta, insieme alle persone più strette o nuovi amici, che abbiamo poi semplificato con le forme geometriche elementari del triangolo e del cerchio.
 
@@ -165,12 +165,31 @@ Una famiglia di font di Google Fonts che unisce queste due tipologie è Poppins 
 
 Poppins, inoltre, presenta 9 pesi con rispettiva versione corsiva (dal sottilissimo al grassetto fino al nero, garantendo versatilità grafica) e il supporto per il _Devanagari_ (l’alfabeto dell’india antica e di buona parte di quella moderna).
 
-| Poppins | Descrizione |
-|:-|:-|
+| Poppins   | Descrizione                                                                                                                                                        |
+| :-------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Caratteri | ABCČĆDĐEFGHIJKLMNOPQRSŠTUVWXYZŽabcčćdđefghijklmnopqrsštuvwxyzžआईऊऋॠऌॡऐऔअंअँकखगघङचछजझञटठडढणतथदधनपफबभयरवळशषसह1234567890०१२३४५६७८९‘?’“!”(%)[#]{@}/&<-+÷×=>®©$€£¥¢:;,.*₹ |
-| Pesi | Sottile 100, Molto Chiaro 200, Chiaro 300, Normale 400, medio 500, Semigrassetto 600, <strong>Grassetto 700</strong>, Grassetto Extra 800, Nero 900 |
+| Pesi      | Sottile 100, Molto Chiaro 200, Chiaro 300, Normale 400, medio 500, Semigrassetto 600, <strong>Grassetto 700</strong>, Grassetto Extra 800, Nero 900                |
 
 
 # Applicazioni del concept
 
 ### Logo + colori + font
+
+## Build Setup
+
+```bash
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
