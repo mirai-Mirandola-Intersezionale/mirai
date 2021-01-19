@@ -15,7 +15,7 @@ Ogni Archetipo ha una sua descrizione,​ un ​desiderio base​ che lo spinge 
 
 L’identità sviluppata raccoglie tre nature strutturali: la prima (<span style="text-decoration:underline;">Explorer</span>) è incentrata sulla ricerca di esperienze e crescita autonoma, la seconda (<span style="text-decoration:underline;">Caregiver</span>) è caratterizzata da empatia, ascolto e grande fiducia, mentre la terza (<span style="text-decoration:underline;">Creator</span>) è non conformista, desidera libertà e espressione senza censure.
 
-| Identità                              | Descrizione           |
+| Identità                              | Descrizione                                                                                                                                                                                                                                                                                    |
 | :------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Explorer<br>(strutturale primaria)    | Ricerca l’autenticità. Promette nuove esperienze e sfida persone a provarle. Con le esperienze aumenta la conoscenza di sé e la comprensione del mondo.<br>Desiderio: trovare se stess* attraverso l’esplorazione del mondo. <br> Risorse: autonomia, ambizione, capacità di seguire l’istinto |
 | Caregiver<br>(strutturale secondaria) | Si preoccupa per gli altri. Sono rispettat* e godono di grande fiducia, sono icone della sicurezza e della continuità. <br>Desiderio: essere in connessione con gli altri.<br> Risorse: realismo, empatia, solidità                                                                            |
@@ -174,22 +174,3 @@ Poppins, inoltre, presenta 9 pesi con rispettiva versione corsiva (dal sottiliss
 # Applicazioni del concept
 
 ### Logo + colori + font
-
-## Build Setup
-
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
