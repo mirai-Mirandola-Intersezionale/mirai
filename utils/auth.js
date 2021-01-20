@@ -35,7 +35,12 @@ function useProvideAuth() {
     return firebase
       .auth()
       .signInWithPopup(new firebase.auth.GoogleAuthProvider())
-      .then((response) => handleUser(response.user))
+      .then((response) => {
+        handleUser(response.user)
+        if (redirect) {
+          Router.push(redirect)
+        }
+    })
   }
   const signout = () => {
     return firebase
