@@ -7,6 +7,13 @@ export default function Header() {
             <div className="logo">
                 <b>mirai</b>
             </div>
+            <div className="navBar">
+                <ul>
+                    <li><Link href="/">Home</Link></li>
+                    <li><Link href="/trova">Trova</Link></li>
+                    <li><Link href="/contatti">Contatti</Link></li>
+                </ul>
+            </div>
         </header>
     )
 }
