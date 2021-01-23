@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Header() {
     return (
-        <header>
+        <header className="flex flex-row">
             <div className="logo">
                 <b>mirai</b>
             </div>
@@ -14,6 +14,9 @@ export default function Header() {
                     <li><Link href="/contatti">Contatti</Link></li>
                 </ul>
             </div>
+            
+
+
         </header>
     )
 }
