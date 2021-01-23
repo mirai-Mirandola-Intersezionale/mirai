@@ -14,7 +14,7 @@ const SEO = {
     description,
     images: [
       {
-        url: 'https://www.mirai.plus/og.png',
+        url: 'https://github.com/mirai-plus/mirai/blob/master/public/img/og.png?raw=true',
         alt: title,
         width: 1280,
         height: 720,
