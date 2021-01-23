@@ -9,8 +9,8 @@ export default function Header() {
             </div>
             <nav className="">
                 <ul className="navBar space-x-4 flex flex-row ">
-                    <li><Link href="/trova">Trova</Link></li>
-                    <li><Link href="/contatti">Contatti</Link></li>
+                    <li><Link href="/Trova">Trova</Link></li>
+                    <li><Link href="/Contatti">Contatti</Link></li>
                 </ul>
             </nav>
         </header>

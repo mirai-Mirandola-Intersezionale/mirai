@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function contatti(){
+export default function Contatti(){
     return(
         <div>
         </div>
