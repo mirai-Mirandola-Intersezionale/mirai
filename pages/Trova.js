@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Trova(){
+export default function trova(){
     return(
         <div>
             
