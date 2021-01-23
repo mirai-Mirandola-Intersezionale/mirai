@@ -1,6 +1,6 @@
 const title =
   'mirai | Collettivo LGBTQI+ Transfemminista'
-const description = 'Fast Feedback is being built as part of React 2025.'
+const description = 'Risorse per la comunità'
 const SEO = {
   title,
   description,
@@ -9,6 +9,7 @@ const SEO = {
     type: 'website',
     locale: 'it_IT',
     url: 'https://www.mirai.plus',
+    site_name: 'mirai',
     title,
     description,
     images: [
@@ -19,6 +20,11 @@ const SEO = {
         height: 720,
       },
     ],
+    twitter: {
+      handle: '@thegayascienza',
+      site: '@thegayascienza',
+      cardType: 'summary_large_image',
+    },
   },
 }
 export default SEO
