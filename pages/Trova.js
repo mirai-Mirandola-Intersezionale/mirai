@@ -8,6 +8,7 @@ function Profile () {
   if (error) return <div>failed to load</div>
   if (!data) return <div>loading...</div>
 
+  const arcigay = data[0]
   const properties = Object.getOwnPropertyNames(data[0])
    
 
@@ -17,7 +18,7 @@ function Profile () {
         {
         properties.map(prop => 
         <li key={prop}>{prop}:
-        <li>{data[0].prop}</li>
+        <li>{arcigay.prop}</li>
         </li>)
         }
     </ul>
