@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 //Components
-import SimpleToggle from './SimpleToggle'
+import SimpleToggle from '../components/SimpleToggle'
 
 export default function Header() {
     return (
