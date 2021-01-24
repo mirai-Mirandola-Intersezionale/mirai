@@ -1,5 +1,9 @@
 import React from 'react'
 
+// Fetching API
+import useSWR from 'swr'
+
+
 export default function Main(){
 
     return (

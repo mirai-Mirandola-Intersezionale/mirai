@@ -12,6 +12,7 @@ export default function Header() {
             </div>
             <nav className="">
                 <ul className="navBar space-x-4 flex flex-row ">
+                    <li><Link href="/Impara">Impara</Link></li>
                     <li><Link href="/Trova">Trova</Link></li>
                     <li><Link href="/Contatti">Contatti</Link></li>
                 </ul>
