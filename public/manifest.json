@@ -45,14 +45,14 @@
             "density": "4.0"
         },
         {
-            "src": "\/icons/apple-icon-36x36.png",
-            "sizes": "36x36",
+            "src": "\/icons/apple-icon-57x57.png",
+            "sizes": "57x57",
             "type": "image\/png",
             "density": "0.75"
         },
         {
-            "src": "\/icons/apple-icon-48x48.png",
-            "sizes": "48x48",
+            "src": "\/icons/apple-icon-60x60.png",
+            "sizes": "60x60",
             "type": "image\/png",
             "density": "1.0"
         },
@@ -87,21 +87,21 @@
           "short_name": "Trova",
           "description": "Trova i centri della salute più vicini a te",
           "url": "/Trova",
-          "icons": [{ "src": "/img/today.png", "sizes": "192x192" }]
+          "icons": [{ "src": "\/icons/apple-icon-60x60.png", "sizes": "60x60" }]
         },
         {
           "name": "Impara i concetti base",
           "short_name": "Impara",
           "description": "Impara i concetti base della salute sessuale",
           "url": "/Impara",
-          "icons": [{ "src": "/img/tomorrow.png", "sizes": "192x192" }]
+          "icons": [{ "src": "\/icons/apple-icon-60x60.png", "sizes": "60x60" }]
         },
         {
           "name": "Contattaci per più info",
           "short_name": "Contattaci",
           "description": "Contattaci per più info e aiuto",
           "url": "/Contatti",
-          "icons": [{ "src": "/img/tomorrow.png", "sizes": "192x192" }]
+          "icons": [{ "src": "\/icons/apple-icon-60x60.png", "sizes": "60x60" }]
         }
     ]
 }
