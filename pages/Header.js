@@ -16,6 +16,18 @@ export default function Header() {
                     <li><Link href="/Trova">Trova</Link></li>
                     <li><Link href="/Contatti">Contatti</Link></li>
                 </ul>
+                <ul className="social-links">
+                    <li className="github">
+                        <a>
+                            <img src="http://placehold.it/"/>
+                        </a>
+                    </li>
+                    <li className="discord">
+                        <a>
+                            <img src="http://placehold.it/"/>
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </header>
     )
