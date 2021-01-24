@@ -6,7 +6,7 @@ import SimpleToggle from '../components/SimpleToggle'
 
 export default function Header() {
     return (
-        <header className="w-full space-x-4 flex flex-row py-4 px-6 justify-between text-white bg-opacity-0 fixed items-center">
+        <header className="w-full flex flex-row justify-between text-white bg-opacity-0 fixed items-center max-w-7xl mx-auto px-4 sm:px-6 border-b-32 border-gray-100 py-6 md:space-x-10">
             <div className="logo">
                 <Link href="/" alt="Home"><b className="text-2xl">mirai</b></Link>
             </div>
