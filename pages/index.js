@@ -7,16 +7,7 @@ import { NextSeo } from 'next-seo';
 import Header from './Header'
 import Main from './Main'
 
-//Fetching API
-// import useSWR from 'swr'
-// const fetcher = (...args) => fetch(...args).then(res => res.json())
-// function Profile () {
-//   const { data, error } = useSWR('https://api.mirai.plus/api/v1/arcigay', fetcher)
-//   if (error) return <div>failed to load</div>
-//   if (!data) return <div>loading...</div>
-//   // render data
-//   return <div>hello {data[0].comune_ubicazione}!</div>
-// }
+
 
 export default function Home() {
   return (
@@ -45,7 +36,6 @@ export default function Home() {
         <meta name="theme-color" content="#F7514E"/>
       </Head>
       <Header/>
-      <Profile/>
       <Main/>
     </div>
   )
