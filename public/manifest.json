@@ -87,21 +87,21 @@
           "short_name": "Trova",
           "description": "Trova i centri della salute più vicini a te",
           "url": "/Trova",
-          "icons": [{ "src": "\/icons/apple-icon-60x60.png", "sizes": "60x60" }]
+          "icons": [{ "src": "\/icons/apple-icon-180x180.png", "sizes": "180x180" }]
         },
         {
           "name": "Impara i concetti base",
           "short_name": "Impara",
           "description": "Impara i concetti base della salute sessuale",
           "url": "/Impara",
-          "icons": [{ "src": "\/icons/apple-icon-60x60.png", "sizes": "60x60" }]
+          "icons": [{ "src": "\/icons/apple-icon-180x180.png", "sizes": "180x180" }]
         },
         {
           "name": "Contattaci per più info",
           "short_name": "Contattaci",
           "description": "Contattaci per più info e aiuto",
           "url": "/Contatti",
-          "icons": [{ "src": "\/icons/apple-icon-60x60.png", "sizes": "60x60" }]
+          "icons": [{ "src": "\/icons/apple-icon-180x180.png", "sizes": "180x180" }]
         }
     ]
 }
