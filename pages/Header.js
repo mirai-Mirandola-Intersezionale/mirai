@@ -1,6 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 
+//Components
+import SimpleToggle from './SimpleToggle'
+
 export default function Header() {
     return (
         <header className="w-full space-x-4 flex flex-row py-4 px-6 justify-between text-white bg-opacity-0 fixed items-center">
