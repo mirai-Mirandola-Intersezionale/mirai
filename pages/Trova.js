@@ -35,15 +35,15 @@ export default function Trova(){
   
 
     return(
-        <div>
-            <div className="grid grid-cols-1 gap-6">
+        <div className="p-4 pt-20">
+            <div className="grid lg:grid-cols-5 grid-cols-1 gap-6">
               <label className="block">
-                {/* <span className="text-gray-700">Cerca</span> */}
+                <span className="text-gray-700">Cerca</span>
                 <input type="search" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="Cerca..."/>
               </label>
               
               <label className="block">
-                <span className="text-gray-700">What type of event is it?</span>
+                <span className="text-gray-700">Scegli il tuo comune</span>
                 <select className="block w-full mt-1 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                   <option>Corporate event</option>
                   <option>Wedding</option>
