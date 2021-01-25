@@ -9,19 +9,22 @@ import useSWR from 'swr'
 
 //Fetch data from API
 const fetcher = (...args) => fetch(...args).then(res => res.json())
+
 function Profile () {
 const { data, error } = useSWR('https://api.mirai.plus/api/v1/arcigay', fetcher)
+
 if (error) return <div>failed to load</div>
+
 if (!data) return (
-  <>
+  <div className="text-center p-4">
     <div>loading...</div>
-    <img src="https://s2.svgbox.net/loaders.svg?ic=elastic-spinner&color=000000" width="32" height="32"></img>
-  </>
+    <img className="m-auto" src="https://s2.svgbox.net/loaders.svg?ic=elastic-spinner&color=000000" width="32" height="32"></img>
+  </div>
 )
    
   // render data
   return (
-    <div className="grid grid-col-3 gap-10">
+    <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-10">
       <Card data={data} />
     </div>
   )
@@ -36,7 +39,7 @@ export default function Trova(){
 
     return(
         <div className="p-4 pt-20">
-            <div className="grid lg:grid-cols-5 grid-cols-1 gap-6">
+            <div className="grid lg:grid-cols-5 grid-cols-1 gap-6 pb-6">
               <label className="block">
                 <span className="text-gray-700">Cerca</span>
                 <input type="search" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="Cerca..."/>
