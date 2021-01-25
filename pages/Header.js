@@ -30,20 +30,20 @@ export default function Header() {
                 (isNavbarOpen ? " flex" : " hidden")
                 }
             >
-                <nav className=" space-x-4 flex flex-row items-center">
+                <nav className=" space-x-4 flex flex-row items-center divide-x">
                     <ul className=" space-x-4 flex flex-row ">
                         <li><Link href="/Impara">Impara</Link></li>
                         <li><Link href="/Trova">Trova</Link></li>
                         <li><Link href="/Contatti">Contatti</Link></li>
                     </ul>
-                    <ul className="social-links space-x-4 flex flex-row border-l-2 pl-6 border-white">
+                    <ul className="social-links space-x-4 flex flex-row pl-4">
                         <li className="github">
                             <a href="https://github.com/mirai-plus/mirai" target="_blank">
                                 <img src="https://s2.svgbox.net/social.svg?ic=github&color=ffffff" width="28" height="28"/>
                             </a>
                         </li>
                         <li className="discord">
-                            <a>
+                            <a href="https://discord.gg/dRmhEgGsWH" target="_blank">
                             <img src="https://s2.svgbox.net/social.svg?ic=discord&color=ffffff" width="28" height="28"/>
                             </a>
                         </li>
