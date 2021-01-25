@@ -1,5 +1,9 @@
 import React from 'react'
 
+//Components
+import Card from '../components/Card'
+
+
 //Fetching API
 import useSWR from 'swr'
 
@@ -19,12 +23,9 @@ const properties = Object.getOwnPropertyNames(data[0])
    
   // render data
   return (
-    <ul>
-        {
-        properties.map(prop => 
-        <li key={prop}>{prop}</li>)
-        }
-    </ul>
+    <>
+      <Card data={properties}/>
+    </>
   )
 }
 
