@@ -6,8 +6,8 @@ export default function Card(props){
             {
                 props.data.map(d => (
                     <div className="p-4 bg-white rounded-md shadow">
-                        {d.logo && <img key={d.logo} src={d.logo} width="50px" height="50px" className="w-16 rounded-full object-cover"/>}
-                        <h1 key={d.id}>{d.denom_struttura}</h1>
+                        {d.logo[0] && <img key={d.id} src={d.logo[0]} width="50px" height="50px" className="w-16 rounded-full object-cover"/>}
+                        <h1 key={d.id}>{d.nome}</h1>
                         <br/>
                         {d.indirizzo && <h5 key={d.indirizzo}>{d.indirizzo}</h5>}
                         <br/>
