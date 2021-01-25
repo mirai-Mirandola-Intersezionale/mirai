@@ -1,14 +1,19 @@
 import React from 'react'
 
 export default function Card(props){
-    return(
+    const properties = Object.getOwnPropertyNames(props.data)
+    return (
         <>
-         <ul>
             {
-            props.data.map(prop => 
-            <li key={prop}>{prop}</li>)
+                properties.map(p=>(
+                    props.data.map((d)=>
+                    <div className="">
+                        <h1 key={d.id}>{d.denom_struttura}</h1>
+                        {d.indirizzo && <li key={d.id}>{d.indirizzo}</li>}
+                    </div>
+                    )
+                ))
             }
-         </ul>
         </>
     )
 }

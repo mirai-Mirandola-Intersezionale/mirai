@@ -31,8 +31,8 @@ function MyApp({ Component, pageProps }) {
         <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png"/>
         <meta name="theme-color" content="#F7514E"/>
       </Head>
-      <Layout/>
       <DefaultSeo {...SEO} />
+      <Layout/>
       <Component {...pageProps} />
     </>
   )

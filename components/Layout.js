@@ -2,6 +2,7 @@ import React from 'react'
 
 //Components
 import Header from './Header'
+import Footer from './Footer'
 
 export default function Layout() {
     return (

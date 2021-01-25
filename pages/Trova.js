@@ -18,14 +18,12 @@ if (!data) return (
     <img src="https://s2.svgbox.net/loaders.svg?ic=elastic-spinner&color=000000" width="32" height="32"></img>
   </>
 )
-
-const properties = Object.getOwnPropertyNames(data[0])
    
   // render data
   return (
-    <>
-      <Card data={properties}/>
-    </>
+    <div className="grid grid-col-3 gap-10">
+      <Card data={data} />
+    </div>
   )
 }
 
