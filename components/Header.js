@@ -33,12 +33,12 @@ export default function Header() {
             </div>
             <div
                 className={
-                "lg:flex flex-grow flex-col lg:flex-row items-center" +
+                "lg:flex flex-grow flex-col lg:flex-row items-end lg:divide-x lg:divide-y-0 divide-y" +
                 (isNavbarOpen ? " flex" : " hidden")
                 }
                 id="example-navbar-danger"
             >
-                <ul className="flex flex-col lg:flex-row list-none lg:ml-auto lg:space-x-4 lg:space-y-0 space-y-4">
+                <ul className="flex flex-col lg:flex-row list-none lg:ml-auto lg:space-x-4 lg:space-y-0 space-y-4 lg:pr-4">
                     <li className="nav-item">
                         <Link
                         className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
