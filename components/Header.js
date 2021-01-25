@@ -11,9 +11,9 @@ export default function Header() {
 
     return (
         <>
-        <header className="w-full fixed p-4 flex flex-wrap items-center justify-between bg-opacity-0 text-white z-50">
-            <div className="w-full flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-                <div className="logo">
+        <header className="w-full fixed flex flex-wrap items-center justify-between bg-opacity-0 text-white z-50">
+            <div className="w-full p-4 flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+                <div className="cursor-pointer">
                     <Link href="/" alt="Home"><b className="text-2xl">mirai</b></Link>
                 </div>
 
@@ -25,7 +25,7 @@ export default function Header() {
                 </button>
             </div>
             <nav className={
-            "lg:flex flex-grow items-center lg:space-x-4  bg-red-500 lg:bg-opacity-0 lg:w-full lg:justify-end" +
+            "lg:flex flex-grow items-center lg:space-x-4  bg-red-500 lg:bg-opacity-0 lg:w-full lg:justify-end p-4" +
             (isNavbarOpen ? " flex" : " hidden")
             } >
                 <div className="flex lg:flex-row flex-col lg:divide-x lg:divide-y-0 divide-y w-full">
