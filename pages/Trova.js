@@ -15,8 +15,7 @@ const properties = Object.getOwnPropertyNames(data[0])
     <ul>
         {
         properties.map(prop => 
-        <li key={prop}>{prop}:
-        </li>)
+        <li key={prop}>{prop}</li>)
         }
     </ul>
   )
@@ -25,7 +24,7 @@ const properties = Object.getOwnPropertyNames(data[0])
 export default function Trova(){
 
   //get geolocation
-  window.navigator.geolocation.getCurrentPosition(console.log)
+  
 
     return(
         <div>
