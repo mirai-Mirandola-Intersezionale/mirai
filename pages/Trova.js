@@ -39,7 +39,7 @@ export default function Trova(){
 
     return(
         <div className="p-4 pt-20">
-            <div className="grid lg:grid-cols-5 grid-cols-1 gap-6 pb-6">
+            <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 pb-6">
               <label className="block">
                 <span className="text-gray-700">Cerca</span>
                 <input type="search" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="Cerca..."/>
