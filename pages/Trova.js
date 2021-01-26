@@ -23,6 +23,10 @@ export default function Trova(){
 
     const [lists] = React.useState([
         {
+            label: "Seleziona il centro",
+            value:'seleziona'
+        },
+        {
           label: "Arcigay",
           value: "arcigay"
         },
@@ -48,32 +52,34 @@ export default function Trova(){
       <NextSeo
        title="Trova i centri della salute più vicini"
       />
-        <div className="p-4 pt-20">
-        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 pb-6">
-            <label className="block">
-                <span className="text-gray-700">Cerca</span>
-                <input 
-                type="search" 
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" 
-                placeholder="Cerca..."
-                value={searchTerm}
-                onChange={handleChange}
-                />
-            </label>
-                
-            <label className="block">
-                <span className="text-gray-700">Scegli la lista</span>
-                <select className="block w-full mt-1 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
-                {lists.map(({ label, value }) => (
-                    <option key={value} value={value} onChange={e => setValue(e.target.value)}>
-                    {label}
-                    </option>
-                ))}
-                </select>
-            </label>
+      <div className="">
+        <div className=" p-4 bg-red-500">
+            <h1 className="text-white text-4xl font-normal text-center my-4">Trova il centro</h1>
+            <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 pb-10">
+                <label className="block">
+                    
+                    <input 
+                    type="search" 
+                    className="block w-full py-4 md:rounded-md rounded-t-md rounded-b-none border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" 
+                    placeholder="Cerca..."
+                    value={searchTerm}
+                    onChange={handleChange}
+                    />
+                </label>
+                    
+                <label className="block">
+                    <select className="block w-full py-4 md:rounded-md rounded-b-md rounded-t-none border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    {lists.map(({ label, value }) => (
+                        <option key={value} value={value} onChange={e => setValue(e.target.value)}>
+                        {label}
+                        </option>
+                    ))}
+                    </select>
+                </label>
+            </div>
         </div>
-            <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-10">
-                <Fetch links={value}/>
+            <div className="grid p-4 lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-10">
+                <Fetch links={value} value={searchTerm}/>
             </div>
         </div>
       </>

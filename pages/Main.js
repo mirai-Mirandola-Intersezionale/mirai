@@ -8,8 +8,8 @@ export default function Main(){
 
     return (
         <>
-        <main className="bg-red-500 h-screen text-white max-w-screen-xl pt-10">
-            <div className="flex flex-col space-x-4 justify-start p-4">
+        <main className="bg-red-500 h-screen text-white w-full ">
+            <div className="flex flex-col space-x-4 p-4 max-w-screen-xl mx-auto h-full place-items-center">
                 {/* <Image src="/img/m.svg" alt="M" width={308} height={196}/>
                 <Image src="/img/i_1.svg" alt="I" width={177} height={231}/>
                 <Image src="/img/r.svg" alt="R" width={198} height={257}/>

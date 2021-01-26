@@ -1,19 +1,25 @@
 import React from 'react'
 
-export default function Card(props){
+export default function Card({data, value}){
     return (
         <>
             {
-                props.data.map(d => (
-                    <div className="p-4 bg-white rounded-md shadow">
-                        {d.logo[0] && <img key={d.id} src={d.logo[0]} width="50px" height="50px" className="w-16 rounded-full object-cover"/>}
-                        <h1 key={d.id}>{d.nome}</h1>
+                data.map(d => (
+                        <div className="p-4 bg-white rounded-md shadow-md">
+                        <div className="flex flex-row-reverse items-start justify-between">
+                            {d.logo[0] && <img key={d.id} src={d.logo[0]} width="50px" height="50px" className="w-16 rounded-full object-cover"/>}
+                            <div className="flex flex-col">
+                                <h1 key={d.id} className="text-lg">{d.nome}</h1>
+                                <br/>
+                                {d.indirizzo && <h5 key={d.indirizzo} className="text-gray-400 text-sm">{d.indirizzo}</h5>}
+                            </div>
+                        </div>
                         <br/>
-                        {d.indirizzo && <h5 key={d.indirizzo}>{d.indirizzo}</h5>}
-                        <br/>
-                        {d.verificato.nome && <h5 key={d.verificato.nome}>Verificato da {d.verificato.nome}</h5>}
-                        <br/>
-                        {d.sito_web && <a href={d.sito_web} target="_blank">{d.sito_web.length < 25 ? d.sito_web : d.sito_web.slice(0, 25)+'...'}</a>}
+                        <div className="flex flex-row-reverse justify-between items-end">
+                            {d.verificato.nome && <h5 key={d.verificato.nome} className="text-right"><span className="text-gray-400 text-sm">Verificato da</span><br/>{d.verificato.nome}</h5>}
+                            <br/>
+                            {d.sito_web && <a href={d.sito_web} target="_blank">{d.sito_web.length < 20 ? d.sito_web : d.sito_web.slice((d.sito_web.indexOf('/')+2), 25)+'...'}</a>}
+                        </div>
                     </div>
                     )
                 )

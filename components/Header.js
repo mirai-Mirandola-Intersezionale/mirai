@@ -12,7 +12,7 @@ export default function Header() {
 
     return (
         <>
-        <nav className="fixed w-full flex flex-wrap items-center justify-between p-4 navbar-expand-lg bg-red-500 text-white z-50">
+        <nav className="w-full flex flex-wrap items-center justify-between p-4 navbar-expand-lg bg-red-500 text-white z-50">
             <div className="container mx-auto flex flex-wrap items-center justify-between">
             <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 
