@@ -9,8 +9,8 @@ export default function Main(){
 
     return (
         <>
-        <main className="h-screen   text-white  ">
-            <div className="px-4 pt-6 pb-24 max-w-screen-xl mx-auto lg:h-full bg-red-500">
+        <main className="lg:h-screen bg-red-500  text-white  ">
+            <div className="px-4 pt-6 pb-24 max-w-screen-xl mx-auto lg:h-full">
                 {/* <Image src="/img/m.svg" alt="M" width={308} height={196}/>
                 <Image src="/img/i_1.svg" alt="I" width={177} height={231}/>
                 <Image src="/img/r.svg" alt="R" width={198} height={257}/>
