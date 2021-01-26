@@ -53,9 +53,9 @@ export default function Trova(){
        title="Trova i centri della salute più vicini"
       />
       <div className="">
-        <div className=" p-4 bg-red-500">
+        <div className=" p-4 bg-red-500 ">
             <h1 className="text-white text-4xl font-normal text-center my-4">Trova il centro</h1>
-            <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 pb-10">
+            <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-6 pb-10 max-w-screen-xl mx-auto">
                 <label className="block">
                     
                     <input 
@@ -78,7 +78,7 @@ export default function Trova(){
                 </label>
             </div>
         </div>
-            <div className="grid p-4 lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-10">
+            <div className="grid p-4 lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-10 max-w-screen-xl mx-auto">
                 <Fetch links={value} value={searchTerm}/>
             </div>
         </div>

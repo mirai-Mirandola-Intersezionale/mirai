@@ -17,11 +17,11 @@ export default function Header() {
             <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 
                 <Link
-                className="cursor-pointer leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap"
+                className="leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap"
                 href="/"
                 >
                     {/* <b className="text-2xl">mirai</b> */}
-                    <Image src="/img/m.svg" alt="M" width={60} height={38}/>
+                    <Image src="/img/m.svg" alt="M" width={60} height={38} className="cursor-pointer"/>
                 </Link>
 
                 <button
