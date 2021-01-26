@@ -4,10 +4,10 @@ import React from 'react'
 import { NextSeo } from 'next-seo';
 
 //Components
-import Form from '../components/Form'
+import Form from '../../components/Form'
 
 //Fetching API
-import Fetch from '../components/Fetch'
+import Fetch from '../../components/Fetch'
 
 //Display data fetched
 
