@@ -55,27 +55,34 @@ export default function Trova(){
       <div className="">
         <div className=" p-4 bg-red-500 ">
             <h1 className="text-white text-4xl font-normal text-center my-4">Trova il centro</h1>
-            <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-6 pb-10 max-w-screen-xl mx-auto">
-                <label className="block">
-                    
+            <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 pb-10 max-w-screen-xl mx-auto">
+                
                     <input 
                     type="search" 
-                    className="block w-full py-4 md:rounded-md rounded-t-md rounded-b-none border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" 
+                    className="block w-full py-4 md:rounded-md md:rounded-r-none rounded-t-md rounded-b-none border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" 
                     placeholder="Cerca..."
                     value={searchTerm}
                     onChange={handleChange}
                     />
-                </label>
+                
                     
-                <label className="block">
-                    <select className="block w-full py-4 md:rounded-md rounded-b-md rounded-t-none border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                
+                    <select className="block w-full py-4 rounded-none border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                     {lists.map(({ label, value }) => (
                         <option key={value} value={value} onChange={e => setValue(e.target.value)}>
                         {label}
                         </option>
                     ))}
                     </select>
-                </label>
+
+                    <input 
+                    type="address" 
+                    className="block w-full py-4 px-3 md:rounded-l-none md:rounded-r-md rounded-t-none rounded-b-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" 
+                    placeholder="Indirizzo..."
+                    value={searchTerm}
+                    onChange={handleChange}
+                    />
+                
             </div>
         </div>
             <div className="grid p-4 lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-10 max-w-screen-xl mx-auto">
