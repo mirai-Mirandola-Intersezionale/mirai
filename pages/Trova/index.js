@@ -7,7 +7,7 @@ import { NextSeo } from 'next-seo';
 import Form from '../../components/Form'
 
 //Fetching API
-import Fetch from '../../components/Fetch'
+// import Fetch from '../../components/Fetch'
 
 //Display data fetched
 
@@ -86,7 +86,7 @@ export default function Trova(){
             </div>
         </div>
             <div className="grid p-4 lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-10 max-w-screen-xl mx-auto">
-                <Fetch links={value} value={searchTerm}/>
+                {/* <Fetch links={value} value={searchTerm}/> */}
             </div>
         </div>
       </>
