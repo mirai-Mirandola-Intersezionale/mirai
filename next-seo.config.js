@@ -1,5 +1,5 @@
 const title =
-  'mirai | Collettivo LGBTQI+ Transfemminista'
+  'mirai | Collettivo Transfemminista Intersezionale'
 const description = 'Risorse per la comunità'
 const SEO = {
   title,
