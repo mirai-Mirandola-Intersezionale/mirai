@@ -6,6 +6,7 @@ import { NextSeo } from 'next-seo';
 //Components
 import Form from '../../components/Form'
 import GooglePlaces from '../../components/GooglePlaces'
+import GooglePlacesAutocomplete from 'react-google-places-autocomplete';
 
 //Fetching API
 // import Fetch from '../../components/Fetch'
@@ -46,8 +47,7 @@ export default function Trova(){
       ]);
 
     const [value, setValue] = React.useState('arcigay');
-
-    
+    const [address, setAddress] = React.useState('')
 
     return(
       <>
@@ -76,8 +76,30 @@ export default function Trova(){
                         </option>
                     ))}
                     </select>
-
-                    <GooglePlaces/>
+                    <GooglePlacesAutocomplete 
+                      className="py-4"
+                      apiKey="AIzaSyBqp5LjDeHLID3AByN-JsWWiw1Ytcwit2Q"
+                      autocompletionRequest={{
+                        componentRestrictions: {
+                          country: ['it'],
+                          }
+                      }}
+                      selectProps={{
+                        address,
+                        onChange: setAddress,
+                        styles: {
+                          input: (provided) => ({
+                            ...provided,
+                            padding:'1rem 0',
+                            borderTopLeftRadius:'0',
+                            borderBottomLeftRadius:'0'
+                          })
+                        }
+                      }}
+                      onLoadFailed={(error) => (
+                        console.error("Could not inject Google script", error)
+                      )}
+                    />
 
 
                 
