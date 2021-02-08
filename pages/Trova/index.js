@@ -5,6 +5,7 @@ import { NextSeo } from 'next-seo';
 
 //Components
 import Form from '../../components/Form'
+import GooglePlaces from '../../components/GooglePlaces'
 
 //Fetching API
 // import Fetch from '../../components/Fetch'
@@ -45,6 +46,7 @@ export default function Trova(){
       ]);
 
     const [value, setValue] = React.useState('arcigay');
+
     
 
     return(
@@ -75,13 +77,9 @@ export default function Trova(){
                     ))}
                     </select>
 
-                    <input 
-                    type="address" 
-                    className="block w-full py-4 px-3 md:rounded-l-none md:rounded-r-md rounded-t-none rounded-b-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" 
-                    placeholder="Indirizzo..."
-                    value={searchTerm}
-                    onChange={handleChange}
-                    />
+                    <GooglePlaces/>
+
+
                 
             </div>
         </div>
