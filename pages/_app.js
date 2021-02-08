@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }) {
         <script
         async defer
           type="text/javascript"
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqp5LjDeHLID3AByN-JsWWiw1Ytcwit2Q&libraries=places"
+          src="https://maps.googleapis.com/maps/api/js?key=$AIzaSyBqp5LjDeHLID3AByN-JsWWiw1Ytcwit2Q&libraries=places"
         />
       </Head>
       <DefaultSeo {...SEO} />
