@@ -42,7 +42,7 @@ export default function GooglePlaces(){
                                 {...getSuggestionItemProps(suggestion, {
                                   className,
                                   style,
-                                })}
+                                })} key={suggestion}
                               >
                                 <span>{suggestion.description}</span>
                               </div>

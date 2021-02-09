@@ -1,6 +1,7 @@
 import React from 'react'
 
 //SEO
+import Head from 'next/head'
 import { NextSeo } from 'next-seo';
 
 //Components
@@ -25,8 +26,8 @@ export default function Trova(){
 
     const [lists] = React.useState([
         {
-            label: "Seleziona il centro",
-            value:'seleziona'
+          label: "Seleziona il centro",
+          value:'seleziona'
         },
         {
           label: "Arcigay",
@@ -51,6 +52,12 @@ export default function Trova(){
 
     return(
       <>
+      <Head>
+        <script
+          type="text/javascript"
+          src={`https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&libraries=places`}
+        />
+      </Head>
       <NextSeo
        title="Trova i centri della salute più vicini"
       />
@@ -67,8 +74,6 @@ export default function Trova(){
                     onChange={handleChange}
                     />
                 
-                    
-                
                     <select className="block w-full py-4 rounded-none border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                     {lists.map(({ label, value }) => (
                         <option key={value} value={value} onChange={e => setValue(e.target.value)}>
@@ -76,30 +81,10 @@ export default function Trova(){
                         </option>
                     ))}
                     </select>
-                    <GooglePlacesAutocomplete 
-                      className="py-4"
-                      apiKey="AIzaSyBqp5LjDeHLID3AByN-JsWWiw1Ytcwit2Q"
-                      autocompletionRequest={{
-                        componentRestrictions: {
-                          country: ['it'],
-                          }
-                      }}
-                      selectProps={{
-                        address,
-                        onChange: setAddress,
-                        styles: {
-                          input: (provided) => ({
-                            ...provided,
-                            padding:'1rem 0',
-                            borderTopLeftRadius:'0',
-                            borderBottomLeftRadius:'0'
-                          })
-                        }
-                      }}
-                      onLoadFailed={(error) => (
-                        console.error("Could not inject Google script", error)
-                      )}
-                    />
+
+                    <GooglePlaces/>
+
+                    
 
 
                 
