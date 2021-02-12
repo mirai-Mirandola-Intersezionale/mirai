@@ -31,6 +31,11 @@ function MyApp({ Component, pageProps }) {
         <meta name="msapplication-TileColor" content="#ffffff"/>
         <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png"/>
         <meta name="theme-color" content="#F7514E"/>
+        <script
+          async defer
+          type="text/javascript"
+          src={`https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&libraries=places`}
+        />
       </Head>
       <DefaultSeo {...SEO} />
       <Layout/>

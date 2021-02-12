@@ -7,7 +7,6 @@ import { NextSeo } from 'next-seo';
 //Components
 import Form from '../../components/Form'
 import GooglePlaces from '../../components/GooglePlaces'
-import GooglePlacesAutocomplete from 'react-google-places-autocomplete';
 
 //Fetching API
 // import Fetch from '../../components/Fetch'
@@ -52,12 +51,6 @@ export default function Trova(){
 
     return(
       <>
-      <Head>
-        <script
-          type="text/javascript"
-          src={`https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&libraries=places`}
-        />
-      </Head>
       <NextSeo
        title="Trova i centri della salute più vicini"
       />
