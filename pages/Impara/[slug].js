@@ -18,7 +18,7 @@ const content = hydrate(source, {components});
       <NextSeo
         title={frontMatter.title}
       />
-      <button><Link href="/impara" as={`/impara`}>Back button</Link></button>
+      <button><Link href="/Impara" as={`/Impara`}>Back button</Link></button>
       <div className="pt-4 max-w-screen-xl mx-auto">
         <h1>{frontMatter.title}</h1>
         <hr/>

@@ -11,7 +11,7 @@ const BlogIndex = ({ allPostsData }) => {
         className="max-w-screen-md mx-auto grid grid-flow-row gap-4 py-10 px-4"
         >
               {allPostsData.map(({ slug, date, title, excerpt }) => (
-                <Link key={slug} href="/impara/[slug]" as={`/impara/${slug}`} >
+                <Link key={slug} href="/Impara/[slug]" as={`/Impara/${slug}`} >
                   <div key={slug} className="rounded-lg shadow-sm p-6 cursor-pointer bg-white">
                         <h2 className="text-2xl">
                           {title}

@@ -86,21 +86,21 @@
           "name": "Trova i centri più vicini",
           "short_name": "Trova",
           "description": "Trova i centri della salute più vicini a te",
-          "url": "/trova",
+          "url": "/Trova",
           "icons": [{ "src": "\/icons/trova.svg", "sizes": "192x192" }]
         },
         {
           "name": "Impara i concetti base",
           "short_name": "Impara",
           "description": "Impara i concetti base della salute sessuale",
-          "url": "/impara",
+          "url": "/Impara",
           "icons": [{ "src": "\/icons/impara.svg", "sizes": "192x192" }]
         },
         {
           "name": "Contattaci per più info",
           "short_name": "Contattaci",
           "description": "Contattaci per più info e aiuto",
-          "url": "/contatti",
+          "url": "/Contatti",
           "icons": [{ "src": "\/icons/contatti.svg", "sizes": "192x192" }]
         }
     ]

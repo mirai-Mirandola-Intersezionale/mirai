@@ -20,7 +20,7 @@ export default function Main(){
                 <h1 className="text-7xl font-extrabold">mirai</h1>
                 <h3 className="text-2xl font-light">Collettivo Autonomo Femminista</h3>
                 <p className="font-normal mt-4">Risorse accessibili per tutt* </p>
-                <Link href="/trova">
+                <Link href="/Trova">
                     <button className="uppercase mt-3 px-4 py-2 shadow-md bg-indigo-500 rounded-md">Trova</button>
                 </Link>
             </div>

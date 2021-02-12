@@ -6,7 +6,7 @@ export default function Card({data, value}){
         <>
             {
                 data.map(d => (
-                    <Link href={'/trova/'+d.id} className="cursor-pointer">
+                    <Link href={'/Trova/'+d.id} className="cursor-pointer">
                         <div className="p-4 bg-white rounded-md shadow-md cursor-pointer">
                             <div className="flex flex-row-reverse items-start justify-between">
                                 {d.logo[0] && <img key={d.id} src={d.logo[0]} width="50px" height="50px" className="w-16 rounded-full object-cover"/>}
