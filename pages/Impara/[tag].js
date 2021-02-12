@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function tags(){
+export default function tag(){
     return(
         <>
         </>

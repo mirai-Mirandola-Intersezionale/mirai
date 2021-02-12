@@ -28,11 +28,11 @@ const content = hydrate(source, {components});
           { 
           frontMatter.tags.map((tag) => 
             (
-              <Link href="/impara/[tag]" as={`/impara/${tag}`} className="cursor-pointer">
+              <div>
                 <p key={tag} className="px-4 py-2 hover:text-gray-100 bg-red-200 hover:bg-red-500 rounded-md w-max text-xs font-medium text-opacity-50 hover:shadow-md cursor-pointer">
                   {tag}
                 </p>
-              </Link>
+              </div>
             )
           )
           }
