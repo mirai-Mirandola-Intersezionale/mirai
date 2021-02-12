@@ -8,7 +8,6 @@ import matter from "gray-matter"
 // MDX rendering
 import renderToString from "next-mdx-remote/render-to-string"
 import hydrate from "next-mdx-remote/hydrate"
-import MDXProvider from '../../components/MDX/MDXProvider'
 
 const components = {}
 
