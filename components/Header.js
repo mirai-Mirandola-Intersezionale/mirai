@@ -44,7 +44,7 @@ export default function Header() {
                     <li className="nav-item">
                         <Link
                         className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                        href="/Impara"
+                        href="/impara"
                         >
                         Impara
                         </Link>
@@ -52,7 +52,7 @@ export default function Header() {
                     <li className="nav-item">
                         <Link
                         className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                        href="/Trova"
+                        href="/trova"
                         >
                         Trova
                         </Link>
@@ -60,7 +60,7 @@ export default function Header() {
                     <li className="nav-item">
                         <Link
                         className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                        href="/Contatti"
+                        href="/contatti"
                         >
                         Contatti
                         </Link>
