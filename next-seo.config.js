@@ -1,6 +1,6 @@
 const title =
   'mirai | Collettivo Autonomo Intersezionale'
-const description = 'Risorse per la comunità'
+const description = 'Collettivo Autonomo Intersezionale | Risorse per la comunità'
 const SEO = {
   title,
   description,
