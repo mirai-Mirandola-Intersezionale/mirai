@@ -19,12 +19,13 @@ const content = hydrate(source, {components});
         title={frontMatter.title}
       />
       <button><Link href="/Impara" as={`/Impara`}>Back button</Link></button>
-      <div className="pt-4 max-w-screen-xl mx-auto">
+      <div className="pt-4 max-w-screen-md mx-auto">
         <h1>{frontMatter.title}</h1>
         <hr/>
         <p>{content}</p>
         <hr/>
-        <div className="tags p-4 flex flex-row space-x-3">
+      </div>
+      <aside className="tags p-4 flex flex-row space-x-3">
           { 
           frontMatter.tags.map((tag) => 
             (
@@ -34,8 +35,7 @@ const content = hydrate(source, {components});
             )
           )
           }
-        </div>
-      </div>
+        </aside>
     </>
   );
 }
