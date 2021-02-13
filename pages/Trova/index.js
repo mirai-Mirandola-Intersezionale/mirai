@@ -57,7 +57,7 @@ export default function Trova(){
       <div className="">
         <div className=" p-4 pb-10 bg-red-500 ">
             <h1 className="text-white text-4xl font-normal text-center my-4">Trova il centro</h1>
-            <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-3 grid-cols-1 max-w-screen-xl mx-auto">
+            <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 max-w-screen-xl mx-auto">
                 
                     <input 
                     type="search" 
