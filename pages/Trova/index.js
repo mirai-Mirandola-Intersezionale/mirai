@@ -15,7 +15,7 @@ import GooglePlaces from '../../components/GooglePlaces'
 
 
 
-export default function trova(){
+export default function Trova(){
 
   const [searchResults, setSearchResults] = React.useState([]);
     const [searchTerm, setSearchTerm] = React.useState("");
