@@ -28,7 +28,7 @@ const content = hydrate(source, {components});
           { 
           frontMatter.tags.map((tag) => 
             (
-                <p key={tag} className="px-4 py-2 hover:text-gray-100 bg-red-200 hover:bg-red-500 rounded-md w-max text-xs font-medium text-opacity-50 hover:shadow-md cursor-pointer">
+                <p key={tag} className="px-4 py-2 hover:text-gray-100 hover:bg-red-200 rounded-full border-2 border-gray-600 hover:border-red-500 w-max text-xs font-medium text-opacity-50 hover:shadow-md cursor-pointer">
                   {tag}
                 </p>
             )
