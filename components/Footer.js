@@ -3,8 +3,8 @@ import React from 'react'
 export default function Footer(){
     return (
         <>
-            <footer className="">
-                <small className="copyright">&copy; Copyright 2021 - {new Date().currentYear()}, Example Corporation</small>
+            <footer className="bg-gray-200">
+                <small className="copyright text-center">&copy; Copyright 2021 - {new Date().currentYear()}, Example Corporation</small>
             </footer>
         </>
     )

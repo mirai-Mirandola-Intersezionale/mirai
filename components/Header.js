@@ -12,9 +12,9 @@ export default function Header() {
 
     return (
         <>
-        <nav className="w-full flex flex-wrap items-center justify-between p-4 navbar-expand-lg bg-red-500 text-white z-50">
+        <nav className="w-full flex flex-wrap items-center justify-between p-4 navbar-expand-lg bg-red-500 text-white z-50 relative">
             <div className="container mx-auto flex flex-wrap items-center justify-between">
-            <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+            <div className="w-full  flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 
                 <Link
                 className="leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap"
@@ -35,7 +35,7 @@ export default function Header() {
             </div>
             <div
                 className={
-                "lg:flex flex-grow flex-col lg:flex-row items-end lg:divide-x lg:divide-y-0 divide-y md:p-0 p-4" +
+                "lg:flex flex-grow flex-col lg:flex-row items-end absolute top-100 right-0 lg:divide-x lg:divide-y-0 divide-y md:p-0 p-4" +
                 (isNavbarOpen ? " flex" : " hidden")
                 }
                 id="example-navbar-danger"
