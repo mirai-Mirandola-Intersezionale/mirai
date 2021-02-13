@@ -35,8 +35,8 @@ export default function Header() {
             </div>
             <div
                 className={
-                "lg:flex flex-grow flex-col lg:flex-row items-end absolute top-full right-0 lg:divide-x lg:divide-y-0 divide-y lg:p-0 px-6 py-2 rounded shadow-sm bg-red-500" +
-                (isNavbarOpen ? " flex" : " hidden")
+                "lg:flex flex-grow flex-col lg:flex-row items-end lg:divide-x lg:divide-y-0 divide-y p-4 " +
+                (isNavbarOpen ? "flex absolute top-full right-0 px-6 py-2 rounded shadow-sm bg-red-500" : " hidden")
                 }
                 id="example-navbar-danger"
             >
