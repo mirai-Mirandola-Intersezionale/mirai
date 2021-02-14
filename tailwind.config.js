@@ -74,6 +74,16 @@ module.exports = {
           800: "#634e1a",
           900: "#32270d"
         },
+      },
+      animation: {
+        'grow': 'grow .3s ease-in-out',
+      },
+      keyframes: {
+        'grow': {
+        '0%': { transform: 'scale(0)' },
+        '50%': { transform: 'scale(1.2)' },
+        '100%': { transform: 'scale(1)' },
+        }
       }
     },
   },
