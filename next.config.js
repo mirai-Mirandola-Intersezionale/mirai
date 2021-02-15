@@ -4,20 +4,6 @@ module.exports = withPWA({
     pwa: {
         dest: 'public'
     },
-    async redirects() {
-    return [
-      {
-        source: '/discord',
-        destination: 'https://discord.gg/dRmhEgGsWH',
-        permanent: true,
-      },
-      {
-        source: '/github',
-        destination: 'https://github.com/mirai-plus/mirai',
-        permanent: true,
-      },
-    ]
-  },
 })
 
 const withMDX = require('@next/mdx')({
@@ -26,4 +12,21 @@ const withMDX = require('@next/mdx')({
   module.exports = withMDX({
     pageExtensions: ['js', 'jsx', 'mdx'],
   })
+
+  module.exports = {
+    async redirects() {
+      return [
+        {
+          source: '/discord',
+          destination: 'https://discord.gg/dRmhEgGsWH',
+          permanent: true,
+        },
+        {
+          source: '/github',
+          destination: 'https://github.com/mirai-plus/mirai',
+          permanent: true,
+        },
+      ]
+    },
+  }
   
