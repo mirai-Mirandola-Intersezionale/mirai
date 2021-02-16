@@ -29,12 +29,7 @@ const withMDX = require('@next/mdx')({
       ]
     },
     async rewrites() {
-    return [
-      {
-        source: '/newsletter',
-        destination: 'https://sleepy-morse-a042c4.netlify.app/',
-      },
-    ]
+    return [{}]
   },
   }
   
