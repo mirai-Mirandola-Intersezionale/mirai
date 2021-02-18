@@ -33,8 +33,5 @@ const withMDX = require('@next/mdx')({
         },
       ]
     },
-    async rewrites() {
-    return [{}]
-  },
   }
   
