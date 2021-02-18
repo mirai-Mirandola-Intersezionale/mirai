@@ -26,6 +26,11 @@ const withMDX = require('@next/mdx')({
           destination: 'https://github.com/mirai-plus/mirai',
           permanent: true,
         },
+        {
+          source: '/notion',
+          destination: 'https://www.notion.so/miraiplus/mirai-479dd829dd7648b38961935d1314e847',
+          permanent: true,
+        },
       ]
     },
     async rewrites() {
