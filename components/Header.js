@@ -72,11 +72,7 @@ export default function Header() {
                             <img src="https://s2.svgbox.net/social.svg?ic=github&color=ffffff" width="28" height="28"/>
                         </a>
                     </li>
-                    <li className="discord">
-                        <a href="https://discord.gg/dRmhEgGsWH" target="_blank">
-                        <img src="https://s2.svgbox.net/social.svg?ic=discord&color=ffffff" width="28" height="28"/>
-                        </a>
-                    </li>
+                    
                 </ul>
             </div>
             </div>
