@@ -1,10 +1,10 @@
-import DetailBar from "./DetailBar";
+import Scelta from "./Scelta";
 import SearchBar from "./SearchBar";
 
 export default function NavBar() {
   return (
     <div>
-      <DetailBar />
+      <Scelta />
       <SearchBar />
     </div>
   );
