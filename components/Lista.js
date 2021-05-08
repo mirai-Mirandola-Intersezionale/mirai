@@ -1,6 +1,6 @@
 export default function Scelta() {
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    <div>
       <label htmlFor="strutture">Scegli la struttura dalla lista:</label>
       <input list="strutture" name="strutture"></input>
       <datalist id="strutture">

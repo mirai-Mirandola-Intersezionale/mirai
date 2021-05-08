@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Search from "../components/Search";
+import Nav from "../components/Nav";
 import Card from "../components/Card";
 
 export async function getStaticProps(context) {
@@ -31,7 +31,7 @@ export default function Home({ data }) {
       <main className={styles.main}>
         <section>
           <h1>Lista di centri</h1>
-          <Search />
+          <Nav />
         </section>
         <section className={styles.data}>
           <Card data={data} />
