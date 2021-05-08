@@ -1,4 +1,4 @@
-export default function searchBar() {
+export default function SearchBar() {
   return (
     <>
       <input type="search" placeholder="Cerca..." />

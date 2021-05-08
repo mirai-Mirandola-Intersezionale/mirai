@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import NavBar from "../components/navBar";
+import NavBar from "../components/NavBar";
+import Card from "../components/Card";
 
 export async function getStaticProps(context) {
   const res = await fetch(
@@ -23,7 +24,7 @@ export default function Home({ data }) {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Lista di centri</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -33,22 +34,7 @@ export default function Home({ data }) {
           <NavBar />
         </section>
         <section className={styles.data}>
-          {data.map((post) => (
-            <div className={styles.post} key={post.id}>
-              {post.logo ? (
-                <img src={post.logo} alt="logo" width="30" height="30" />
-              ) : (
-                ""
-              )}
-              <h3>{post.nome}</h3>
-              {post.posizione.indirizzo_completo ? (
-                <p>{post.posizione.indirizzo_completo}</p>
-              ) : (
-                ""
-              )}
-              {post.descrizione[0] ? <p>{post.descrizione[0]}</p> : ""}
-            </div>
-          ))}
+          <Card data={data} />
         </section>
       </main>
 
