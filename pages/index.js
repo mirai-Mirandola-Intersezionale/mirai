@@ -1,7 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Image from "next/image";
-import Search from "../components/searchBar";
+import NavBar from "../components/navBar";
 
 export async function getStaticProps(context) {
   const res = await fetch(
@@ -31,7 +30,7 @@ export default function Home({ data }) {
       <main className={styles.main}>
         <section>
           <h1>Lista di centri</h1>
-          <Search />
+          <NavBar />
         </section>
         <section className={styles.data}>
           {data.map((post) => (
