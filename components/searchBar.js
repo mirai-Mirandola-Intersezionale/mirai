@@ -1,3 +1,7 @@
 export default function searchBar() {
-  return <></>;
+  return (
+    <>
+      <input type="search" placeholder="Cerca..." />
+    </>
+  );
 }
